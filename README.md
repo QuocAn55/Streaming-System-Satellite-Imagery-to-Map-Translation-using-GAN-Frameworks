@@ -10,7 +10,7 @@ We collected high-resolution satellite imagery through the Google Maps Static AP
 ### Cycle Generative Adversarial Network (CycleGAN)
 CycleGAN, based on the original GAN proposed by Goodfellow et al., enables image-to-image translation without requiring paired training data. It uses two generators (G and F) and two discriminators (Dx and Dy) to learn mappings between two image domains. The model translates an input image to a new domain and then reconstructs it back to the original, minimizing the difference between the original and reconstructed images. This architecture allows CycleGAN to perform effective image translation even when corresponding input-output image pairs are not available.
 <p align="center">
-  <img width="600" src="https://drive.google.com/file/d/1kZscipUvJKI8sRRcaYY2yf2uj7nW9mlm/view?usp=sharing" alt="CGAN_Architecture">
+  <img width="600" src="https://github.com/QuocAn55/Streaming-System-Satellite-Imagery-to-Map-Translation-using-GAN-Frameworks/blob/main/Images/CGAN_Architecture.png?raw=true" alt="CGAN_Architecture">
   <br>
   <em>Figure 1: Cycle Generative Adversarial Network architecture.</em>
 </p>
@@ -26,7 +26,7 @@ This experiment evaluated Pix2Pix and CycleGAN for translating satellite imagery
 The core of the Streaming Real-time System for Satellite Imagery to Map Translation is a sophisticated architecture that processes image data from multiple sources—such as drones—using Kafka and PySpark. The system enables real-time integration and translation of image streams to generate dynamic, up-to-date maps for search and rescue in dense forests.
 
 <p align="center">
-  <img width="600" src="https://drive.google.com/file/d/1kZscipUvJKI8sRRcaYY2yf2uj7nW9mlm/view?usp=drive_link" alt="Streaming_system">
+  <img width="600" src="https://github.com/QuocAn55/Streaming-System-Satellite-Imagery-to-Map-Translation-using-GAN-Frameworks/blob/main/Images/Streaming_system.png?raw=true" alt="Streaming_system">
   <br>
   <em>Figure 2: Our proposed streaming system.</em>
 </p>
